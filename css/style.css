@@ -1,12 +1,47 @@
 body {
+    border: solid 1.5px black;
+    background-color: aquamarine;
+    margin: 0;
+    box-sizing: border-box;
     display: flex;
+    
 }
 
-.contenedor {
-    background-color: darkolivegreen;
-    border: solid 1px black;
-    margin: 1% 1% 1% 1%;
-    max-width: 85.375rem;
-    width: 100%;
-    height: 100rem;
+.cont-principal {
+    border: solid 1.5px black;
+    background-color: chartreuse;
+    margin: 2rem 2rem 2rem 2rem;
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-1 {
+    border: solid 1.5px black;
+    background-color: blueviolet;
+    width: 90vw;
+    height: 25vh;
+
+}
+
+.cont-2 {
+    border: solid 1.5px black;
+    background-color: darksalmon;
+    width: 100vw;
+    height: 25vh;
+}
+
+.cont-3 {
+    border: solid 1.5px black;
+    background-color: deeppink;
+    width: 100vw;
+    height: 25vh;
+}
+
+.cont-4 {
+    border: solid 1.5px black;
+    background-color: darkorange;
+    width: 100vw;
+    height: 25vh;
 }
