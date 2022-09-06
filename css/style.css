@@ -1,0 +1,45 @@
+body, .principal, h1, .p1, .p2, .vinculos, a{
+    border: solid 1px black;
+}
+
+.principal {
+    background-color: chartreuse;
+    /* border: solid 1px black; */
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    background-color: blueviolet;
+    margin: 0rem 0rem 0rem 0rem;
+    /* border: solid 1px black; */
+    width: 20%;
+
+}
+
+.principal .p1 {
+    background-color: darksalmon;
+    margin: 0.0rem 0.0rem 0.0rem 0.0rem;
+    /* border: solid 1px black; */
+    width: 20%;
+}
+
+.principal .p2 {
+    background-color: deeppink;
+    margin: 0rem 0rem 0rem 0rem;
+    /* border: solid 1px black; */
+    width: 25%;
+}
+
+.vinculos {
+    background-color: darkorange;
+}
+a {
+    background-color: blue;
+    color: white;
+    margin: 0rem 0rem 0rem 0rem;
+   
+}
