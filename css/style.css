@@ -55,22 +55,43 @@ body {
 }
 
 .cont-3 {
-    background-color: deeppink;
+    background-color: transparent;
     margin: 1rem 1rem 1rem 1rem;
     width: 90vw;
     height: 204.17vh;
+    /* box-sizing: border-box; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cont-nav {
     background-color: hsl(202, 100%, 61%);
+    width: 19.5vw;
+    height: 204.17vh;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1.5rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cont-nav-div {
     background-color: hsl(182, 96%, 32%);
+    width: 16vw;
+    height: 42vh;
+    margin: 2.3rem 0rem 0rem 0rem;
+    padding: 2.3rem 0rem 0rem 0rem;
+    text-align: center; 
 }
 
 .cont-main {
     background-color: hsl(182, 96%, 32%);
+    width: 46vw;
+    height: 204.17vh;
 }
 
 section {
@@ -94,6 +115,7 @@ section {
 .cm-aside {
     background-color: hsl(0, 0%, 65%);
     color: hsl(0, 0%, 100%);
+    
 }
 
 .cm-aside-div1 {
@@ -107,10 +129,23 @@ section {
 .container-aside {
     background-color: hsl(0, 0%, 65%);
     color: hsl(0, 0%, 100%);
+    width: 19.5vw;
+    height: 204.17vh;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1.5rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-aside-div {
-    background-color: hsl(182, 96%, 32%)
+    background-color: hsl(182, 96%, 32%);
+    width: 16vw;
+    height: 42vh;
+    margin: 2.3rem 0rem 0rem 0rem;
+    padding: 2.3rem 0rem 0rem 0rem;
+    text-align: center;
 }
 
 .cont-4 {
