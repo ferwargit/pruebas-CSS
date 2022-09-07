@@ -1,18 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --color: hsl(0, 0%, 100%);
+    --font-weight: 700;
+    --font-size: 3rem;
+}
+
 body {
-    border: solid 1.5px black;
-    background-color: aquamarine;
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    color: var(--color);
+
+
+    /* border: solid 1.5px black; */
+    background-color: rgb(35, 35, 35);
     margin: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    max-width: 100%;
     
 }
 
 .cont-principal {
     border: solid 1.5px black;
-    background-color: chartreuse;
+    background-color: hsl(0, 2%, 92%);
     margin: 0rem 0rem 0rem 0rem;
     width: 95.2vw;
     display: flex;
@@ -22,20 +39,29 @@ body {
 }
 
 .cont-1 {
-    border: solid 1.5px black;
-    background-color: blueviolet;
+    /* border: solid 1.5px black; */
+    background-color: hsl(214, 92%, 54%);
     margin: 2rem 1rem 1rem 1rem;
+    padding: 0rem 0rem 0rem 3rem;
+    box-sizing: border-box;
     width: 90vw;
     height: 25vh;
+    display: flex;
+    align-items: center;
+    
 
 }
 
 .cont-2 {
-    border: solid 1.5px black;
-    background-color: darksalmon;
+    /* border: solid 1.5px black; */
+    background-color: hsl(214, 100%, 34%);
     margin: 1rem 1rem 1rem 1rem;
+    padding: 0rem 0rem 0rem 3rem;
+    box-sizing: border-box;
     width: 90vw;
     height: 11vh;
+    display: flex;
+    align-items: center;
 }
 
 .cont-3 {
@@ -47,9 +73,13 @@ body {
 }
 
 .cont-4 {
-    border: solid 1.5px black;
-    background-color: darkorange;
+    /* border: solid 1.5px black; */
+    background-color: hsl(214, 92%, 54%);
     margin: 1rem 1rem 2rem 1rem;
+    padding: 0rem 0rem 0rem 3rem;
+    box-sizing: border-box;
     width: 90vw;
     height: 25vh;
+    display: flex;
+    align-items: center;
 }
