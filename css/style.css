@@ -93,55 +93,145 @@ body {
     width: 46vw;
     height: 204.17vh;
     box-sizing: border-box;
+    padding: 0rem 0rem 0rem 0rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     
+}
+
+.titulo-main {
+    width: 40.5vw;
+    height: 13vh;
+    padding: 1.5rem 0rem 0rem 0rem;
+}
+
+.cont-section{
+    width: 40.5vw;
+    height: 186.17vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section {
     background-color: hsl(0, 0%, 89%);
     color: hsl(270, 10%, 20%);
     width: 40.5vw;
-    height: 86vh;
-    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    height: 88vh;
+    margin: 0rem 0.5rem 2rem 0.5rem;
+    padding: 0rem 0rem 0rem 0.7rem;
     box-sizing: border-box;
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-section {
+    width: 40.5vw;
+    height: 7vh;
+}
+
+.art-aside {
+    width: 39vw;
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .cm-art {
     background-color: hsl(0, 0%, 45%);
     color: hsl(0, 0%, 100%);
     box-sizing: border-box;
+    width: 35vw;
+    height: 34.5vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titulo-article {
+    width: 35vw;
+    height: 10vh;
+    padding: 0rem 0rem 0rem 0.7rem;
+}
+
+.cm-art-div1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .cm-art-div1 {
     background-color: hsl(182, 96%, 32%);
     box-sizing: border-box;
+    width: 18.8vw;
+    height: 18vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .cm-art-div2 {
     background-color: hsl(182, 96%, 32%);
     box-sizing: border-box;
+    width: 11.5vw;
+    height: 18vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .cm-aside {
     background-color: hsl(0, 0%, 65%);
     color: hsl(0, 0%, 100%);
     box-sizing: border-box;
+    width: 35vw;
+    height: 34.5vh;
     
+}
+
+.titulo-aside {
+    width: 35vw;
+    height: 10vh;
+    padding: 0rem 0rem 0rem 0.7rem;
+}
+
+.cm-aside-div1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .cm-aside-div1 {
     background-color: hsl(182, 96%, 32%);
     box-sizing: border-box;
+    width: 18.8vw;
+    height: 18vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .cm-aside-div2 {
     background-color: hsl(182, 96%, 32%);
     box-sizing: border-box;
+    width: 11.5vw;
+    height: 18vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     
 }
 
