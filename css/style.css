@@ -12,25 +12,18 @@ body {
     font-family: var(--font-family);
     font-weight: var(--font-weight);
     color: var(--color);
-
-
-    /* border: solid 1.5px black; */
     background-color: rgb(35, 35, 35);
     margin: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    max-width: 100%;
-    
+    align-items: center;    
 }
 
 .cont-principal {
-    border: solid 1.5px black;
     background-color: hsl(0, 2%, 92%);
-    margin: 0rem 0rem 0rem 0rem;
+    margin: 1.5rem 0rem 1.5rem 0rem;
     width: 95.2vw;
     display: flex;
     flex-direction: column;
@@ -39,7 +32,6 @@ body {
 }
 
 .cont-1 {
-    /* border: solid 1.5px black; */
     background-color: hsl(214, 92%, 54%);
     margin: 2rem 1rem 1rem 1rem;
     padding: 0rem 0rem 0rem 3rem;
@@ -48,8 +40,6 @@ body {
     height: 25vh;
     display: flex;
     align-items: center;
-    
-
 }
 
 .cont-2 {
@@ -65,15 +55,65 @@ body {
 }
 
 .cont-3 {
-    border: solid 1.5px black;
     background-color: deeppink;
     margin: 1rem 1rem 1rem 1rem;
     width: 90vw;
     height: 204.17vh;
 }
 
+.cont-nav {
+    background-color: hsl(202, 100%, 61%);
+}
+
+.cont-nav-div {
+    background-color: hsl(182, 96%, 32%);
+}
+
+.cont-main {
+    background-color: hsl(182, 96%, 32%);
+}
+
+section {
+    background-color: hsl(0, 0%, 89%);
+    color: hsl(270, 10%, 20%);
+}
+
+.cm-art {
+    background-color: hsl(0, 0%, 45%);
+    color: hsl(0, 0%, 100%);
+}
+
+.cm-art-div1 {
+    background-color: hsl(182, 96%, 32%)
+}
+
+.cm-art-div2 {
+    background-color: hsl(182, 96%, 32%)
+}
+
+.cm-aside {
+    background-color: hsl(0, 0%, 65%);
+    color: hsl(0, 0%, 100%);
+}
+
+.cm-aside-div1 {
+    background-color: hsl(182, 96%, 32%)
+}
+
+.cm-aside-div2 {
+    background-color: hsl(182, 96%, 32%)
+}
+
+.container-aside {
+    background-color: hsl(0, 0%, 65%);
+    color: hsl(0, 0%, 100%);
+}
+
+.container-aside-div {
+    background-color: hsl(182, 96%, 32%)
+}
+
 .cont-4 {
-    /* border: solid 1.5px black; */
     background-color: hsl(214, 92%, 54%);
     margin: 1rem 1rem 2rem 1rem;
     padding: 0rem 0rem 0rem 3rem;
