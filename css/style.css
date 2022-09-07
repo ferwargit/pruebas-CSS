@@ -92,39 +92,60 @@ body {
     background-color: hsl(182, 96%, 32%);
     width: 46vw;
     height: 204.17vh;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 section {
     background-color: hsl(0, 0%, 89%);
     color: hsl(270, 10%, 20%);
+    width: 40.5vw;
+    height: 86vh;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    box-sizing: border-box;
+    
 }
 
 .cm-art {
     background-color: hsl(0, 0%, 45%);
     color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
 }
 
 .cm-art-div1 {
-    background-color: hsl(182, 96%, 32%)
+    background-color: hsl(182, 96%, 32%);
+    box-sizing: border-box;
 }
 
 .cm-art-div2 {
-    background-color: hsl(182, 96%, 32%)
+    background-color: hsl(182, 96%, 32%);
+    box-sizing: border-box;
 }
 
 .cm-aside {
     background-color: hsl(0, 0%, 65%);
     color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
     
 }
 
 .cm-aside-div1 {
-    background-color: hsl(182, 96%, 32%)
+    background-color: hsl(182, 96%, 32%);
+    box-sizing: border-box;
 }
 
 .cm-aside-div2 {
-    background-color: hsl(182, 96%, 32%)
+    background-color: hsl(182, 96%, 32%);
+    box-sizing: border-box;
+    
 }
+
+
 
 .container-aside {
     background-color: hsl(0, 0%, 65%);
