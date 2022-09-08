@@ -129,7 +129,7 @@ section {
 }
 
 .titulo-section {
-    width: 40.5vw;
+    width: 18vw;
     height: 7vh;
 }
 
@@ -154,10 +154,11 @@ section {
 }
 
 .titulo-article {
-    width: 35vw;
+    width: 16vw;
     height: 10vh;
-    padding: 0rem 0rem 0rem 0.7rem;
-}
+    padding: 0.5rem 0rem 1rem 0.7rem;
+    
+} 
 
 .cm-art-div1-2 {
     display: flex;
@@ -199,9 +200,9 @@ section {
 }
 
 .titulo-aside {
-    width: 35vw;
+    width: 16vw;
     height: 10vh;
-    padding: 0rem 0rem 0rem 0.7rem;
+    padding: 0.5rem 0rem 1rem 0.7rem;
 }
 
 .cm-aside-div1-2 {
@@ -234,8 +235,6 @@ section {
     justify-content: center;
     
 }
-
-
 
 .container-aside {
     background-color: hsl(0, 0%, 65%);
